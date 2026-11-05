@@ -93,3 +93,7 @@ p {
   gap: 8px;
 
 }
+
+.footer-img {
+    filter: brightness(0) invert(1)
+}

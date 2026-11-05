@@ -3,6 +3,7 @@ import './index.css'
 import Headshot from './Headshot.jsx'
 import Main from './Main.jsx'
 import InformationBlock from './InformationBlock.jsx'
+import Footer from './Footer.jsx'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <InformationBlock />
       <Main />
     </div>
+    <Footer />
     </>
   )
 }
