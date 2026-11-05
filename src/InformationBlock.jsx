@@ -1,4 +1,6 @@
 import './index.css'
+import mailIcon from './assets/Mail.svg'
+import linkedinIcon from './assets/linkedin.svg'
 
 export default function InformationBlock() {
   return (
@@ -9,7 +11,14 @@ export default function InformationBlock() {
             <p>website.website.com</p>
         </div>
         <div className="information-buttons">
-            <button>email</button> <button>linkedin</button>
+            <button>
+                <img src={mailIcon} alt="email icon" />
+                email
+                </button> 
+                <button>
+                    <img src={linkedinIcon} alt="linkedin icon" />
+                    linkedin
+                </button>
         </div>
     </> 
   ) 

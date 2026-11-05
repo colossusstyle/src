@@ -7,7 +7,6 @@ export default function Footer() {
         <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter.png" class="footer-img" alt="twitter icon" />
         <img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png" class="footer-img" alt="facebook icon" />
         <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" class="footer-img" alt="instagram icon" />
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" class="footer-img" alt="linkedin icon" />
     </div> 
   ) 
 }
